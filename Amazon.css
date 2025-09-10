@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+}
+.navibar{
+    height: 60px;
+   background-color: #0f1111;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+/*box1*/
+.navi-logo{
+    height: 50px;
+    width: 150px;
+}
+.logo{
+    background-image: url(Amazonlogo.png);
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/*box2*/
+.add-first{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 2px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/*box4*/
+.navi-search{
+    display: flex;
+    background-color: gold;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.navi-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-radius: 4px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #0f1111;
+}
+/*box4*/
+span{
+    font-size: 0.7rem;
+}
+.sigin-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*box5*/
+.navi-return{
+    font-size: 0.7rem;
+}
+.return-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*box6*/
+.navi-cart i{
+    font-size: 35px;
+}
+.navi-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+     color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;  
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.75rem;
+}
+.penel-deals{
+    font-size: 0.8rem;
+}
+.hero-section{
+    background-image: url(Amazonbox2.jpg);
+    height: 300px;
+    background-size: cover;
+}
+.shopping{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+}
+.imgcode{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
